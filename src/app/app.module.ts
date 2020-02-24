@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { SingleClickDirective } from './single-click.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SingleClickDirective
   ],
   imports: [
     BrowserModule
